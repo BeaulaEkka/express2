@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
   res.render("index", {
     title: "Home Page",
     message: "Welcome page",
+    people: ["John", "Jack", "Emily"],
   });
 });
 
