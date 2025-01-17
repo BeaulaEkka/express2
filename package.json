@@ -2,9 +2,10 @@
   "name": "express2",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node app",
-    "dev":"node --watch app"
+    "dev": "node --watch app"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express2": "file:"
   }
 }
